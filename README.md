@@ -2,6 +2,10 @@
 
 A Distributed Background Task Processing System written in Go, using Redis for job queuing.
 
+**High level overview**
+    ![overview](WorkQueue.png)
+
+
 ## What's the need for this?
 
 This system is designed to handle the processing and execution of background tasks concurrently to improve user experience.
